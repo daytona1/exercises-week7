@@ -6,11 +6,13 @@
 // var varName = "";
 
 
-// set up your script here
-function setup() {
-}
+var mySketch = new p5(function(sketch){
 
+  sketch.setup = function() {
+    console.log("Setup");
+  }
 
-// this is where the action is
-function draw() {
-}
+  sketch.draw = function() {
+
+  }
+});
